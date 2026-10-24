@@ -53,6 +53,9 @@ ignore = [
 ]
 typing-modules = ["frappe.types.DF"]
 
+[tool.bench.frappe-dependencies]
+frappe = ">=16.0.0-dev"
+
 [tool.ruff.format]
 quote-style = "double"
 indent-style = "tab"
